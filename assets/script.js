@@ -32,10 +32,10 @@ function generatePassword() {
   if (passwordLength < 8 || passwordLength > 128 || isNaN(passwordLength) === true) {
     console.log ("Darn it! The password length wasn't a number between 8-128...")
     alert ("The password must be a number between 8-128 characters...come on now.");
-    return ("Error!");
+      return ("Error!");
   }
 
-  else (passwordLength >= 8 || passwordLength <= 128 || isFinite(passwordLength) === true); {
+  else if (passwordLength >= 8 || passwordLength <= 128 || isFinite(passwordLength) === true); {
     console.log ("Woohoo! You have successfuly chosen a password length of " + (passwordLength) + ".") 
     
     chooseLower = confirm ("Would you like to include lowerCase characters in your password?")
@@ -64,7 +64,6 @@ function generatePassword() {
       }
       console.log ("Whoopee! You have chose to include numbers in your password!")
     };
-  
     
     chooseSpecial = confirm ("Would you like to include special characters in your password?")
     if (chooseSpecial === true) {
@@ -74,18 +73,16 @@ function generatePassword() {
       }
       console.log ("Hurray! You have chose to include special characters in your password!")
     };
+    
+    if (!chooseLower && !chooseUpper && !chooseNumbers && !chooseSpecial) {
+      console.log("Boohoo! The criteria was not met... :(")
+      alert ("At least one character type must be selected in order to generate your password.");
+      return ("Error!");
+    }
 
     console.log (passwordCharacters)
-    return passwordCharacters
+      return passwordCharacters;
   }
-
-  // } else if{
-  //   (lowercase === false && uppercase === false && numbers === false && special === false);
-  //   console.log("Boohoo! The criteria was not met... :(")
-  //   alert ("The password must be a number between 8-128 characters...come on now."); {
-  //   return "Error!"
-  //   }
-
 }
     
     // Write password to the #password input
