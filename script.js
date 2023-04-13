@@ -41,7 +41,7 @@ function generatePassword() {
       console.log ("Woohoo! :D You have successfuly chosen a password length of " + (passwordLength) + ".") 
       
       // This criteria is for lowercase characters. If 'confirm', the array for lowercase(lowChar) will be added to the variable passwordCharacters.
-      chooseLower = confirm ("Would you like to include lowerCase characters in your password?")
+      chooseLower = confirm ("Would you like to include lowercase characters in your password?")
       if (chooseLower === true) {
         for (var i = 0; i < passwordLength; i++) {
           lowercase = types.lowChar[Math.floor(Math.random() * types.lowChar.length)];
