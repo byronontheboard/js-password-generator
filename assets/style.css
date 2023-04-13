@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 *,
 *::before,
 *::after {
@@ -13,8 +14,10 @@ body,
 }
 
 body {
-  font-family: sans-serif;
-  background-color: #f9fbfd;
+  font-family: 'Yeseva One', sans-serif;
+  /* font-family: sans-serif; */
+  background-color: #E9DEC9;
+  /* background-color: #f9fbfd; */
 }
 
 .wrapper {
@@ -27,15 +30,18 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  color: #2B1C00;
+  /* color: hsl(206, 17%, 28%); */
 }
 
 .card {
   background-color: hsl(0, 0%, 100%);
-  border-radius: 5px;
+  border: #2B1C00 solid;
+  border-radius: 50px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  color: #2B1C00;
+  /* color: hsl(206, 17%, 28%); */
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
@@ -73,12 +79,14 @@ header {
 }
 
 .btn {
+  font-family: 'Yeseva One', sans-serif;
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: #CD5454;
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
-  color: hsl(0, 0%, 100%);
+  color: white;
+  /* color: hsl(0, 0%, 100%); */
   display: inline-block;
   font-size: 22px;
   line-height: 22px;
@@ -86,6 +94,11 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  transform: scale(1.05);
 }
 
 button[disabled] {
@@ -113,9 +126,9 @@ button[disabled] {
   margin-top: 10px;
   margin-bottom: 10px;
   border: 2px dashed #c0c7cf;
-  border-radius: 6px;
+  border-radius: 25px;
   resize: none;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 @media (max-width: 690px) {
