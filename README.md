@@ -14,7 +14,17 @@ Originally, I began coding this project as an assignment from UC Davis’s Codin
 
 ## Let’s Generate Your Password
 
-In order to use this application, please find your way to my password generator by clicking this link first:
+### In order to use this application, please find your way to my password generator by clicking this link first:
+ [Deployed GitHub IO: JavaScript Password Generator](https://byronontheboard.github.io/js-password-generator/)
 
-[Deployed GitHub IO: JavaScript Password Generator](https://byronontheboard.github.io/js-password-generator/)
+Once you have opened the web application, we can now get started. 
+
+First, please click on the ‘Generate Password’ button, from there you will be prompted to select a length for your password(but be sure to enter a length between 8-128 characters in order for the function to continue).
+
+<img width="1792" alt="2 password-generator-js(character-length-prompt)" src="https://user-images.githubusercontent.com/127366720/231919404-26863b58-4f38-4ecf-ae62-10430b83d967.png">
+
+If you select a password length that is not a less than 8, more than 128, or not a number; the application will then return an error message to the user and terminate the function.
+
+<img width="1792" alt="4 password-generator-js(validation-character-length-return)" src="https://user-images.githubusercontent.com/127366720/231919731-033dc0f1-1ff6-45ea-8acc-778f6d2b6f05.png">
+
 
