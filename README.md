@@ -41,6 +41,6 @@ Once you have opened the web application, we can now get started.
 
 ### After selecting your password length and confirming at least one character type that you would like to utilize for your password, you will then be returned your newly generated password! 
 
-<img width="1792" alt="6 password-generator-js(password-successfully-generated)" src="https://user-images.githubusercontent.com/127366720/231927614-537500fd-0813-497b-a3d4-bb5c243e71b9.png">
+<img width="1792" alt="7 password-generator-js(password-successfully-generated-console)" src="https://user-images.githubusercontent.com/127366720/231933132-eb147e8e-ab00-4a17-8886-7b3e47cdb32e.png">
 
 ### Congratulations on successfully generating your password! From here, you can copy your new password from the text area to use however you would like! Enjoy! (づ｡◕‿‿◕｡)づ
